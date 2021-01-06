@@ -1,0 +1,210 @@
+section#solutions .principal-container {
+  display: flex;
+  background: #000;
+  padding: 5rem 10rem;
+}
+
+section#solutions .principal-container .main-text {
+  display: flex;
+  flex-direction: column;
+}
+
+section#solutions .principal-container .main-text h1 {
+  font: 600 7rem Poppins;
+  color: #520EBC;
+  width: 100rem;
+}
+
+section#solutions .principal-container .main-text h6 {
+  font: 400 2.7rem Poppins;
+  color: #fff;
+  width: 100rem;
+
+  margin: 5rem 0;
+}
+
+section#solutions .principal-container .main-text a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 80rem;
+  background: #5E12D4;
+  text-decoration: none;
+  color: #fff;
+  padding: 1.5rem 8rem;
+  font: 400 3rem Poppins;
+  border-radius: 3rem;
+
+  margin: 5rem 0;
+  transition: 0.2s background ease-out, 0.2s color ease-out;
+}
+
+section#solutions .delivery-solutions {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  padding: 10rem 0;
+}
+
+section#solutions .delivery-solutions > h1 {
+  font: 600 6rem Poppins;
+  color: #520EBC;
+}
+
+section#solutions .delivery-solutions > p {
+  font: 400 3rem Poppins;
+  width: 90rem;
+  text-align: center;
+  margin: 5rem 0;
+}
+
+section#solutions .delivery-solutions .timeline {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  width: 100%;
+}
+
+section#solutions .delivery-solutions .timeline .line {
+  height: 0.5rem;
+  width: 90%;
+  background: #5E12D4;
+}
+
+section#solutions .delivery-solutions .timeline .cards {
+  display: flex;
+}
+
+section#solutions .delivery-solutions .timeline .cards .card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 40rem;
+  margin: 0 3rem;
+}
+
+section#solutions .delivery-solutions .timeline .cards .card h1 {
+  font: 600 8rem Poppins;
+  color: #5E12D4;
+}
+
+section#solutions .delivery-solutions .timeline .cards .card h3 {
+  font: 600 2rem Poppins;
+  margin: 2rem 0;
+}
+
+section#solutions .delivery-solutions .timeline .cards .card p {
+  font: 400 2rem Poppins;
+}
+
+section#solutions .free-diagnostic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding-bottom: 10rem;
+}
+
+section#solutions .free-diagnostic h1 {
+  font: 600 6rem Poppins;
+  color: #5E12D4;
+  text-align: center;
+  width: 100rem;
+  margin-bottom: 5rem;
+}
+
+section#solutions .free-diagnostic > p {
+  font: 400 2.5rem Poppins;
+  text-align: center;
+  width: 68rem;
+
+  margin: 2rem 0;
+}
+
+section#solutions .free-diagnostic > a {
+  background: #000;
+  text-decoration: none;
+  color: #fff;
+  padding: 1.5rem 8rem;
+  font: 400 2.7rem Poppins;
+  border-radius: 3rem;
+
+  margin: 5rem 0;
+  transition: 0.2s background ease-out, 0.2s color ease-out;
+}
+
+section#solutions .free-diagnostic .solutions {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 100%;
+  margin: 8rem 0;
+}
+
+section#solutions .free-diagnostic .solutions .solution {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 50%;
+}
+
+section#solutions .free-diagnostic .solutions .solution img {
+  width: 70rem;
+}
+
+section#solutions .free-diagnostic .solutions .solution h2 {
+  font: 600 5rem Poppins;
+  color: #520EBC;
+  width: 70%;
+}
+
+section#solutions .free-diagnostic .solutions .solution p {
+  width: 70%;
+  font: 400 2.8rem Poppins;
+  margin: 5rem 0;
+}
+
+section#solutions .free-diagnostic .solutions .solution a {
+  font: 400 3rem Poppins;
+  color: #520EBC;
+  width: 70%;
+}
+
+section#solutions .talk-to-specialist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: #520EBC;
+  padding: 5rem 0;
+  width: 100%;
+}
+
+section#solutions .talk-to-specialist h1 {
+  font: 600 6rem Poppins;
+  color: #fff;
+
+  width: 180rem;
+  text-align: center;
+}
+
+section#solutions .talk-to-specialist a {
+  background: #fff;
+  text-decoration: none;
+  color: #520EBC;
+  padding: 1.5rem 8rem;
+  font: 400 2.7rem Poppins;
+  border-radius: 3rem;
+
+  margin: 5rem 0;
+  transition: 0.2s background ease-out, 0.2s color ease-out;
+}

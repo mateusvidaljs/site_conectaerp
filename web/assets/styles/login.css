@@ -1,0 +1,59 @@
+section#login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+section#login .login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 0.1rem solid #b5b5b5;
+  border-radius: 0.8rem;
+  padding: 4rem;
+  width: 48rem;
+}
+
+section#login .login-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+}
+
+section#login .login-container form .input-block {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+}
+
+section#login .login-container form .input-block label {
+  font: 400 1.6rem Poppins;
+  margin-bottom: 1rem;
+}
+
+section#login .login-container form .input-block input {
+  margin-bottom: 2rem;
+  font: 400 1.5rem Poppins;
+  padding: 1rem;
+}
+
+section#login .login-container form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 0;
+  background: #520EBC;
+  color: #fff;
+  font: 400 1.6rem Poppins;
+  padding: 1rem 5rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+}

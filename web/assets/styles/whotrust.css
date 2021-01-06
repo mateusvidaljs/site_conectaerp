@@ -1,0 +1,59 @@
+div#who-trust {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: 5rem 0;
+}
+
+div#who-trust div.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div#who-trust div.text-container h2 {
+  font: 600 5rem Poppins;
+  color: #520EBC;
+}
+
+div#who-trust div.text-container p {
+  font: 400 2.5rem Poppins;
+  margin-top: 2rem;
+}
+
+div#who-trust .main-clients-brandings ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 10rem 0;
+}
+
+div#who-trust .main-clients-brandings ul li {
+  list-style: none;
+}
+
+div#who-trust .main-clients-brandings ul li img {
+  width: 18rem;
+  margin: 0 5rem;
+}
+
+div#who-trust a {
+  background: #5E12D4;
+  text-decoration: none;
+  color: #fff;
+  padding: 1.5rem 8rem;
+  font: 400 2rem Poppins;
+  border-radius: 3rem;
+
+  margin: 5rem 0;
+  transition: 0.2s background ease-out, 0.2s color ease-out;
+}
+
+div#who-trust a:hover {
+  background: #000;
+  color: #fff;
+}

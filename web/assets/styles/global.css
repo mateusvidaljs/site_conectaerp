@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+:root {
+  font-size: 60%;
+
+  --color-main: #5E12D4;
+  --color-main-dark: #520EBC;
+  --color-black: #000;
+  --color-white: #fff;
+}
+
+@media (min-width: 700px) {
+  :root {
+    font-size: 62.5%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100vh;
+}
+
+section.web-page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+section#home main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+section#home main section#main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  background: #000;
+  color: #fff;
+  padding: 3rem 15rem;
+}
+
+section#home main section#main-container div.first-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+section#home main section#main-container div.first-content img {
+  width: 60%;
+}
+
+section#home main section#main-container div.first-content div.text-container h1 {
+  font: 600 7rem Poppins;
+  color: #520EBC;
+}
+
+section#home main section#main-container div.first-content div.text-container h3 {
+  font: 600 3rem Poppins;
+  width: 45rem;
+  margin: 2rem 0;
+}
+
+section#home main section#main-container div.first-content div.text-container .button-container {
+  margin-top: 6rem;
+}
+
+section#home main section#main-container div.first-content div.text-container .button-container a {
+  background: #5E12D4;
+  text-decoration: none;
+  color: #fff;
+  padding: 1.5rem 8rem;
+  font: 400 2rem Poppins;
+  border-radius: 3rem;
+
+  transition: 0.2s background ease-out, 0.2s color ease-out;
+}
+
+section#home main section#main-container div.first-content div.text-container .button-container a:hover {
+  background: #fff;
+  color: #000;
+}
+
+section#home main section#main-container div.second-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10rem 30rem;
+
+  font: 400 2.5rem Poppins;
+}
+
+section#home main section#main-container div.third-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+section#home main section#main-container div.third-content div.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section#home main section#main-container div.third-content div.text-container h2 {
+  font: 600 5rem Poppins;
+  color: #520EBC;
+}
+
+section#home main section#main-container div.third-content div.text-container p {
+  font: 400 2.5rem Poppins;
+  margin-top: 2rem;
+}
+
+section#home main section#main-container div.third-content .main-clients-brandings ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 5rem;
+}
+
+section#home main section#main-container div.third-content .main-clients-brandings ul li {
+  list-style: none;
+}
+
+section#home main section#main-container div.third-content .main-clients-brandings ul li img {
+  width: 18rem;
+  margin: 0 5rem;
+  filter: brightness(0) invert(1);
+}
+
+section#home main section#main-container div.third-content a {
+  background: #5E12D4;
+  text-decoration: none;
+  color: #fff;
+  padding: 1.5rem 8rem;
+  font: 400 2rem Poppins;
+  border-radius: 3rem;
+
+  margin: 5rem 0;
+  transition: 0.2s background ease-out, 0.2s color ease-out;
+}
+
+section#home main section#main-container div.third-content a:hover {
+  background: #fff;
+  color: #000;
+}
+
+section#home main section#why-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 7rem 0;
+}
+
+section#home main section#why-container .first-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section#home main section#why-container .first-container h1 {
+  font: 600 6rem Poppins;
+  color: #520EBC;
+}
+
+section#home main section#why-container .first-container h3 {
+  font: 400 3rem Poppins;
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+}
+
+section#home main section#why-container .second-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section#home main section#why-container .second-container ul {
+  display: flex;
+  margin-bottom: 10rem;
+}
+
+section#home main section#why-container .second-container ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0 3rem;
+}
+
+section#home main section#why-container .second-container ul li p {
+  font: 400 2.7rem Poppins;
+  width: 37rem;
+  padding: 3rem 0;
+  text-align: center;
+  height: 17rem;
+}
+
+section#home main section#why-container .second-container ul li p strong {
+  font: 600 2.7rem Poppins;
+}
+
+section#home main section#why-container .second-container a {
+  background: var(--color-black);
+  color: var(--color-white);
+  font: 400 2.5rem Poppins;
+  text-decoration: none;
+  padding: 1.5rem 5rem;
+  border-radius: 5rem;
+
+  transition: 0.2s background ease-out;
+}
+
+section#home main section#why-container .second-container a:hover {
+  background: var(--color-main);
+}

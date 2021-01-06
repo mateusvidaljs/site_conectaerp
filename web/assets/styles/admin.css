@@ -1,0 +1,256 @@
+section#admin-page {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+section#admin-page .menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+
+  height: 100%;
+  width: 7vw;
+  background: #3c3c3c;
+  color: #fff;
+  padding: 2rem;
+}
+
+section#admin-page .menu ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  cursor: pointer;
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+  font: 400 1.6rem Poppins;
+}
+
+section#admin-page .body {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+  width: 93vw;
+  margin-left: 7vw;
+}
+
+section#admin-page .body .input-block {
+  display: flex;
+  flex-direction: column;
+
+  width: 33%;
+}
+section#admin-page .body .input-block + .input-block {
+  margin-top: 3rem;
+}
+
+section#admin-page .body .input-block label {
+  font: 500 1.7rem Poppins;
+}
+
+section#admin-page .body .input-block input,
+section#admin-page .body .input-block textarea {
+  margin-top: 1rem;
+  font: 400 1.6rem Poppins;
+  padding: 1rem;
+}
+
+section#admin-page .body > .header {
+  display: flex;
+  align-items: center;
+  border-bottom: 0.1rem solid #b5b5b5;
+  padding-bottom: 2rem;
+  margin-bottom: 5rem;
+}
+
+section#admin-page .body .header h2 {
+  font: 500 2.4rem Poppins;
+}
+
+section#admin-page .body #cases {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section#admin-page .body #cases .case {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  margin: 1rem;
+
+  border: 0.1rem solid #b5b5b5;
+  padding: 3rem;
+  border-radius: 0.8rem;
+}
+
+section#admin-page .body #cases .case .input-block {
+  width: 100%;
+}
+
+section#admin-page .body #cases .case button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 0;
+  background: #32CD32;
+  font: 400 1.6rem Poppins;
+  color: #fff;
+  padding: 1rem 4rem;
+  border-radius: 0.8rem;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+
+section#admin-page .body #cases table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+section#admin-page .body #cases table thead {
+  border-bottom: 0.3rem solid #b5b5b5;
+}
+
+section#admin-page .body #cases table thead tr {
+  font: 500 1.8rem Poppins;
+  color: #3c3c3c;
+}
+
+section#admin-page .body #cases table tbody tr {
+  font: 400 1.4rem Poppins;
+  border-bottom: 0.1rem solid #f0f0f0;
+}
+
+section#admin-page .body #cases table tbody tr td {
+  padding: 1rem 0;
+}
+
+section#admin-page .body #cases table tbody tr td button.edit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 0;
+  color: #fff;
+  background: #00CED1;
+  cursor: pointer;
+  border-radius: 3rem;
+  height: 3rem;
+  width: 3rem;
+
+  transition: 0.2s background ease-out;
+}
+
+section#admin-page .body #cases table tbody tr td button.edit:hover {
+  background: #00AED1;
+}
+
+section#admin-page .body #cases table tbody tr td button.remove {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 0;
+  color: #fff;
+  background: #EE0000;
+  cursor: pointer;
+  border-radius: 3rem;
+  height: 3rem;
+  width: 3rem;
+
+  transition: 0.2s background ease-out;
+}
+
+section#admin-page .body #cases table tbody tr td button.remove:hover {
+  background: #EE1F00;
+}
+
+section#admin-page .body .edit-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+
+  background-color: #fff;
+  border: 0.1rem solid #b5b5b5;
+  margin-top: 1rem;
+  margin-left: 50rem;
+  border-radius: 0.8rem;
+  width: 70rem;
+
+  z-index: 100;
+}
+
+section#admin-page .body .edit-modal .header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  padding: 1rem;
+}
+
+section#admin-page .body .edit-modal .header span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #ff0000;
+  cursor: pointer;
+}
+
+section#admin-page .body .edit-modal form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 2rem;
+}
+
+section#admin-page .body .edit-modal div {
+  width: 100%;
+}
+
+section#admin-page .body .edit-modal form input {
+  margin: 1rem 0;
+  padding: 1.5rem;
+}
+
+section#admin-page .body .edit-modal .button-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  padding: 2rem;
+}
+
+section#admin-page .body .edit-modal .button-container button {
+  font: 400 1.4rem Poppins;
+  width: 15rem;
+  border: 0;
+  background: #32CD32;
+  color: #fff;
+  border-radius: 0.8rem;
+  padding: 1rem 0;
+  cursor: pointer;
+
+  transition: 0.2s background ease-out;
+}
+
+section#admin-page .body .edit-modal .button-container button:hover {
+  background: #32AC32;
+}
+
+.bg-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  z-index: 50;
+}

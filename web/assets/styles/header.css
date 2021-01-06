@@ -1,0 +1,79 @@
+section.web-page header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  font: 400 2.4rem Poppins;
+  margin: 5rem 15rem 2rem;
+}
+
+section.web-page header img {
+  width: 22rem;
+  cursor: pointer;
+}
+
+section.web-page header ul {
+  display: flex;
+}
+
+section.web-page header ul li {
+  list-style: none;
+  margin: 0 2rem;
+}
+
+section.web-page header ul li a {
+  text-decoration: none;
+  color: #000;
+  transition: 0.2s color ease-out;
+}
+
+section.web-page header ul li a:hover {
+  color: #5E12D4;
+}
+
+section.web-page header .header-buttons {
+  display: flex;
+  align-items: center;
+}
+
+section.web-page header .header-buttons a {
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem 3rem;
+  border-radius: 3rem;
+  transition: 0.2s background ease-out;
+
+  margin-left: 3rem;
+}
+
+section.web-page header .header-buttons a:hover {
+  background: #5E12D4;
+}
+
+section.web-page header ul li .submenu-solutions {
+  position: absolute;
+  background: #000;
+  color: #fff;
+  border-radius: 0.8rem;
+
+  transition: 0.2s visibility ease-out;
+}
+
+section.web-page header ul li .submenu-solutions ul {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+section.web-page header ul li .submenu-solutions ul li {
+  line-height: 3rem;
+  cursor: pointer;
+}
+
+section.web-page header ul li .submenu-solutions ul li a {
+  text-decoration: none;
+  color: #fff;
+}

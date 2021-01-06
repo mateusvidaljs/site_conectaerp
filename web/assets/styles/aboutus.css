@@ -1,0 +1,224 @@
+section#about-us main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+section#about-us main .main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  background: #5E12D4;
+  padding: 7rem 0;
+}
+
+section#about-us main .main-container h1 {
+  width: 80%;
+  font: 600 8rem Poppins;
+  color: #fff;
+  text-align: center;
+}
+
+section#about-us main .main-container h4 {
+  font: 600 3.5rem Poppins;
+  color: #fff;
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+section#about-us main .main-container p {
+  font: 400 2.5rem Poppins;
+  color: #fff;
+  text-align: center;
+  margin-top: 5rem;
+  width: 40%;
+}
+
+section#about-us main .main-container a {
+  background: var(--color-black);
+  color: var(--color-white);
+  font: 400 2.5rem Poppins;
+  text-decoration: none;
+  padding: 1.5rem 5rem;
+  border-radius: 5rem;
+  margin-top: 10rem;
+  cursor: pointer;
+
+  transition: 0.2s background ease-out, 0.2s color ease-out;
+}
+
+section#about-us main .main-container a:hover {
+  background: var(--color-white);
+  color: var(--color-black);
+}
+
+section#about-us main .meet-founders {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  align-items: center;
+  justify-content: center;
+  padding: 10rem 0;
+  background: #f5f5f5;
+}
+
+section#about-us main .meet-founders h1 {
+  font: 600 6rem Poppins;
+  color: #5E12D4;
+  margin: 1.5rem 0;
+}
+
+section#about-us main .meet-founders .founders {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin-top: 8rem;
+}
+
+section#about-us main .meet-founders .founders .founder {
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+}
+
+section#about-us main .meet-founders .founders .founder img {
+  width: 30rem;
+}
+
+section#about-us main .meet-founders .founders .founder h2 {
+  font: 500 5rem Poppins;
+  color: #5E12D4;
+  margin: 1rem 0;
+}
+
+section#about-us main .meet-founders .founders .founder p.position {
+  font: 400 2.5rem Poppins;
+  color: #000;
+  margin-bottom: 3rem;
+}
+
+section#about-us main .meet-founders .founders .founder p.resume {
+  font: 400 2.5rem Poppins;
+  color: #000;
+}
+
+section#about-us main .meet-founders .founders .founder a {
+  font: 500 2.5rem Poppins;
+  color: #5E12D4;
+  margin-top: 2rem;
+}
+
+section#about-us main .our-team {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  padding: 10rem 0;
+}
+
+section#about-us main .our-team h1 {
+  font: 600 6rem Poppins;
+  color: #5E12D4;
+}
+
+section#about-us main .our-team h3 {
+  font: 600 3rem Poppins;
+  color: #5E12D4;
+  width: 40rem;
+  margin-top: 1rem;
+}
+
+section#about-us main .our-team p {
+  font: 400 3rem Poppins;
+  color: #000;
+  width: 70rem;
+  margin-top: 5rem;
+}
+
+section#about-us main .understand-our-work {
+  display: flex;
+  flex-direction: column;
+  padding: 10rem 0;
+  align-items: center;
+  justify-content: center;
+}
+
+section#about-us main .understand-our-work h1 {
+  font: 600 6rem Poppins;
+  color: #5E12D4;
+  width: 80rem;
+  text-align: center;
+}
+
+section#about-us main .understand-our-work .body {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 10rem 0;
+}
+
+section#about-us main .understand-our-work .body .text {
+  font: 400 2.7rem Poppins;
+  color: #000;
+  width: 80rem;
+}
+
+section#about-us main .understand-our-work .body .text p {
+  margin-top: 3rem;
+}
+
+section#about-us main .understand-our-work .body .text a {
+  background: var(--color-black);
+  color: var(--color-white);
+  font: 400 2.5rem Poppins;
+  text-decoration: none;
+  padding: 1.5rem 5rem;
+  border-radius: 5rem;
+  cursor: pointer;
+
+  transition: 0.2s background ease-out, 0.2s color ease-out;
+}
+
+section#about-us main .understand-our-work .body .text div {
+  margin-top: 10rem;
+}
+
+section#about-us main .be-consultor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #5E12D4;
+  padding: 8rem 0;
+}
+
+section#about-us main .be-consultor h1 {
+  font: 500 6rem Poppins;
+  color: #fff;
+  margin-bottom: 3rem;
+}
+
+section#about-us main .be-consultor p {
+  font: 400 2.5rem Poppins;
+  color: #fff;
+  width: 110rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+section#about-us main .be-consultor a {
+  background: var(--color-white);
+  color: var(--color-black);
+  font: 400 2.5rem Poppins;
+  text-decoration: none;
+  padding: 1.5rem 5rem;
+  border-radius: 5rem;
+  cursor: pointer;
+  margin-top: 7rem;
+
+  transition: 0.2s background ease-out, 0.2s color ease-out;
+}

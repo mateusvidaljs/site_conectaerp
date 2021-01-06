@@ -1,0 +1,99 @@
+section#solutions-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  padding: 8rem 0;
+
+  width: 100%;
+  height: 1294px;
+  background: transparent url('/assets/images/func_back.svg') 0% 0% no-repeat padding-box;
+}
+
+section#solutions-container .first-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section#solutions-container .first-container h1 {
+  font: 600 6rem Poppins;
+  color: #520EBC;
+}
+
+section#solutions-container .first-container h2 {
+  font: 600 3rem Poppins;
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+}
+
+section#solutions-container .second-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 80%;
+  margin-top: 7rem;
+}
+
+section#solutions-container .second-container .carousel-container {
+  display: flex;
+  align-items: center;
+}
+
+section#solutions-container .second-container .carousel-container .icon-carousel {
+  margin: 5rem;
+  cursor: pointer;
+}
+
+section#solutions-container .second-container .carousel-container .carousel-item {
+  display: flex;
+  align-items: center;
+}
+
+section#solutions-container .second-container .carousel-container .carousel-item img {
+  width: 70rem;
+}
+
+section#solutions-container .second-container .carousel-container .carousel-item .carousel-text {
+  width: 60rem;
+  margin-left: 10rem;
+}
+
+section#solutions-container .second-container .carousel-container .carousel-item .carousel-text h2 {
+  font: 500 5rem Poppins;
+  color: #520EBC;
+}
+
+section#solutions-container .second-container .carousel-container .carousel-item .carousel-text p {
+  font: 400 3rem Poppins;
+  margin-top: 2rem;
+}
+
+section#solutions-container .second-container .points-carousel {
+  margin-top: 5rem;
+  display: flex;
+}
+
+section#solutions-container .second-container .points-carousel .point {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+section#solutions-container .second-container a {
+  background: var(--color-main);
+  color: var(--color-white);
+  font: 400 2.5rem Poppins;
+  text-decoration: none;
+  margin-top: 10rem;
+  padding: 1.5rem 5rem;
+  border-radius: 5rem;
+
+  transition: 0.2s background ease-out;
+}
+
+section#solutions-container .second-container a:hover {
+  background: var(--color-black);
+}

@@ -1,0 +1,90 @@
+div#case {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div#case .client-presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100rem;
+  padding: 5rem 0;
+  margin: 5rem 0;
+}
+
+div#case .client-presentation img {
+  width: 40rem;
+  margin-bottom: 10rem;
+}
+
+div#case .client-presentation .resume {
+  font: 400 3rem Poppins;
+  text-align: center;
+}
+
+div#case .how-helped {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #520EBC;
+  width: 100%;
+  padding: 10rem 0;
+}
+
+div#case .how-helped h2 {
+  font: 600 6.5rem Poppins;
+  color: #fff;
+  text-align: end;
+  width: 70rem;
+}
+
+div#case .how-helped .resume {
+  font: 400 3rem Poppins;
+  color: #fff;
+  text-align: start;
+  width: 50rem;
+  margin-left: 15rem;
+}
+
+div#case .diferencials {
+  display: flex;
+  align-items: center;
+  padding: 20rem 0;
+  width: 100%;
+}
+
+div#case .diferencials .title-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div#case .diferencials .title-container .title {
+  font: 400 6rem Poppins;
+  color: #520EBC;
+  width: 70rem;
+  text-align: center;
+}
+
+div#case .diferencials ul {
+  background: #f5f5f5;
+  width: 50%;
+  padding: 5rem;
+}
+
+div#case .diferencials ul li {
+  list-style: none;
+  font: 400 3rem Poppins;
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+div#case .diferencials ul li span {
+  margin-left: 3rem;
+}
